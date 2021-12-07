@@ -1,0 +1,6 @@
+- link:
+    ~/.git-identities: git/.git-identities
+    ~/.gitconfig: git/.gitconfig
+    ~/.gitmessage: git/.gitmessage
+    ~/.gitignore_global: git/.gitignore_global
+

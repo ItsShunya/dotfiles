@@ -1,11 +1,37 @@
+[init]
+	defaultBranch = master
+
 [user]
 	name = Shunya
 	email = luque.viictor@gmail.com
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
 [core]
 	longpaths = true
 	autocrlf = input
+	ignorecase = false
+	excludesfile = ~/.gitignore_global
+
+[commit]
+	template = ~/.gitmessage
+
+[includeIf "gitdir:~/Projects/**"]
+	path = ~/.git-identities/.gitconfig-Shunya
+
+[includeIf "gitdir:~/Repositories/**"]
+	path = ~/.git-identities/.gitconfig-Victor
+
+[fetch]
+	prune = true
+
+[gitflow "prefix"]
+	feature = FEATURES/
+	hotfix = HOTFIXES/
+	release = RELEASES/
+	support = SUPPORT/
+	versiontag = v
