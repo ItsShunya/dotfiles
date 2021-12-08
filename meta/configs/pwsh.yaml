@@ -1,0 +1,9 @@
+- link:
+    ~/oh-my-posh: pwsh/oh-my-posh
+
+- shell:
+    - 
+        command: powershell.exe pwsh/install.ps1
+        stderr: true
+        stdout: true
+
