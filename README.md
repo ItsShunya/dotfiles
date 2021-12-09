@@ -24,6 +24,20 @@ The issue appears when you want to have the same configuration profile for your 
 To avoid these issues, it is best to keep a copy of your configuration files (*dotfiles*), or even better, have a way to easily integrate/synchronise these dotfiles in any machine.
 
 # Installation
+Clone this repository with its submodules (**important!**), unlike many other **dotfiles managers**, with *dotbot* it is not necessary to clone the repository into your `$HOME`, as it uses [*symlinks*](https://en.wikipedia.org/wiki/Symbolic_link) to replace the original dotfiles.
+
+`git clone --recursive https://github.com/Shunya-sama/dotfiles.git dotfiles`  
+
+Move into the directory that you just cloned.  
+
+`cd dotfiles`
+
+Now run the following install command in a bash terminal. For Windows you can use the Git Bash. The second parameter is the name of the OS that you are configuring.  
+Options are `{windows, macOS, linux}`.
+
+`./install-profile windows`
+
+
 
 # Structure
 
