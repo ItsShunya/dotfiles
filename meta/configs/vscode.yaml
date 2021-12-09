@@ -1,0 +1,15 @@
+- link:
+    "~/.vscode/argv.json":
+      if: '[ "$OSTYPE" = msys ]' # git bash shell
+      path: vscode/argv.json
+    "~/Library/Application Support/Code/User/settings.json":
+      if: '[ `uname` = Darwin ]' # macOS
+      path: vscode/settings.json
+    
+
+- shell:
+    - 
+        if: '[ `uname` = WINDOWS_NT ]' # git bash shell 
+        command: powershell.exe vscode/install.ps1
+        stderr: true
+        stdout: true
