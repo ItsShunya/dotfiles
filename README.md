@@ -19,6 +19,9 @@ These files are always synchronised using [DotBot](https://github.com/anishathal
 - [License]()
 
 # Why dotfiles?
+When you are working in tech, at some point it will become frequent to change computers, or maybe even have more than one, even if it is just a personal computer and another one for work. 
+The issue appears when you want to have the same configuration profile for your apps on both, or when you just get a new machine and now have to set everything upand try to not miss anything from your old configuration...  
+To avoid these issues, it is best to keep a copy of your configuration files (*dotfiles*), or even better, have a way to easily integrate/synchronise these dotfiles in any machine.
 
 # Installation
 
