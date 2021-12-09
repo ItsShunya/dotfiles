@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Radical",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "CaskaydiaCove NF",
+    "python.defaultInterpreterPath": "c:\\Python39\\python.exe"
+}
