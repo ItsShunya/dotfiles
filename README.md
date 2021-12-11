@@ -37,8 +37,6 @@ Options are `{windows, macOS, linux}`.
 
 `./install-profile windows`
 
-
-
 # Structure
 
 # Services
@@ -62,5 +60,4 @@ Options are `{windows, macOS, linux}`.
 ### pipenv
 
 # License
-
 This project is released under the MIT license, but as dotfiles are something quite personal I'd recommend everyone to make their own configuration.
