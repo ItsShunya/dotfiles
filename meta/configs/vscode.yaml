@@ -9,7 +9,7 @@
 
 - shell:
     - 
-        if: '[ `uname` = WINDOWS_NT ]' # git bash shell 
-        command: powershell.exe vscode/install.ps1
-        stderr: true
-        stdout: true
+      command: '[ -d ~/.vscode ]  && powershell.exe vscode/install.ps1'
+      description: Create symlink to VSCode's settings.json for Windows.
+      stderr: true
+      stdout: true 
