@@ -12,7 +12,7 @@ Import-Module oh-my-posh
 Import-Module z
 
 # Load Oh My Posh theme from OneDrive.
-oh-my-posh --init --shell pwsh --config 'D:\Projects\dotfiles\powershell\oh-my-posh\theme.json' | Invoke-Expression
+oh-my-posh --init --shell pwsh --config 'D:\Projects\dotfiles\pwsh\oh-my-posh\theme.json' | Invoke-Expression
 
 # Set up word autocompletion for winget.
 # https://github.com/microsoft/winget-cli/blob/master/doc/Completion.md
