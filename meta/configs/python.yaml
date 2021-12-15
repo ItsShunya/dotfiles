@@ -1,0 +1,11 @@
+- shell:
+    - 
+      command: 'bash python/install.sh'
+      description: Install Python for the given OS.
+      stderr: true
+      stdout: true
+
+    -
+      command: 'pip install pyenv-win --target $HOME\\.pyenv'
+      stderr: true
+      stdout: true
