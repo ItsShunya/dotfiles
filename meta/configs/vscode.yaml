@@ -1,8 +1,8 @@
 - link:
-    "~/.vscode/argv.json":
-      if: '[ "$OSTYPE" = msys ]' # git bash shell
+    ~/.vscode/argv.json:
       path: vscode/argv.json
-    "~/Library/Application Support/Code/User/settings.json":
+      if: '[ -d ~/.vscode ]' # Windows
+    ~/Library/Application Support/Code/User/settings.json:
       if: '[ `uname` = Darwin ]' # macOS
       path: vscode/settings.json
     
