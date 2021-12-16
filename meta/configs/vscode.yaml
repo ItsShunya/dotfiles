@@ -5,7 +5,9 @@
     ~/Library/Application Support/Code/User/settings.json:
       if: '[ `uname` = Darwin ]' # macOS
       path: vscode/settings.json
-    
+    ~/.config/Code/User/settings.json:
+      f: '[ `uname` = Linux ]' # Linux
+      path: vscode/settings.json
 
 - shell:
     - 
