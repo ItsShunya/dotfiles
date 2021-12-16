@@ -1,3 +1,6 @@
 [submodule "meta/dotbot"]
 	path = meta/dotbot
 	url = https://github.com/Shunya-sama/dotbot
+[submodule "python/pyenv"]
+	path = python/pyenv
+	url = https://github.com/pyenv/pyenv.git
