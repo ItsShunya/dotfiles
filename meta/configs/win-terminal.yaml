@@ -3,10 +3,3 @@
       path: win-terminal/settings.json
     ~/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/state.json:
       path: win-terminal/state.json
-
-- shell:
-    - 
-      command: 'powershell.exe win-terminal/install.ps1'
-      description: Create symlink to Windows Terminal defaults.json for Windows.
-      stderr: true
-      stdout: true 
