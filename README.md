@@ -16,6 +16,7 @@ These files are always synchronised using [DotBot](https://github.com/anishathal
     - [Python](#python)
         - [pyenv](#pyenv)
         - [pipenv](#pipenv)
+    - [Windows Terminal](#windows-terminal)
 - [License]()
 
 # Why dotfiles?
@@ -58,6 +59,8 @@ Options are `{windows, macOS, linux}`.
 ### pyenv
 
 ### pipenv
+
+## Windows Terminal
 
 # License
 This project is released under the MIT license, but as dotfiles are something quite personal I'd recommend everyone to make their own configuration.
