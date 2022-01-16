@@ -9,7 +9,7 @@ if($env:OS -eq "Windows_NT"){
     $link = New-Item -ItemType SymbolicLink -Path $outPath -Target $inPath -Force
     $link | Select-Object LinkType, Target
 
-    ForEach ($ln in (Get-Content .\extensions)) {
+    ForEach ($ln in (Get-Content .\vscode\extensions)) {
         Write-Output ">> Install: $ln"
         code --install-extension "$ln"
     }
