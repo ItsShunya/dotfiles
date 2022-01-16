@@ -1,0 +1,5 @@
+- link:
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/settings.json:
+      path: win-terminal/settings.json
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState/state.json:
+      path: win-terminal/state.json
