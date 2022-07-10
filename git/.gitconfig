@@ -16,6 +16,8 @@
 	autocrlf = input
 	ignorecase = false
 	excludesfile = ~/.gitignore_global
+	fsmonitor = true
+	untrackedcache = true
 
 [commit]
 	template = ~/.gitmessage
