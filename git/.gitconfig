@@ -31,7 +31,7 @@
 
 [gitflow "prefix"]
 	feature = FEATURES/
-	hotfix = HOTFIXES/
+	hotfix = BUGFIXES/
 	release = RELEASES/
 	support = SUPPORT/
 	versiontag = v
