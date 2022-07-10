@@ -3,5 +3,13 @@
     "workbench.iconTheme": "material-icon-theme",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontFamily": "CaskaydiaCove NF",
-    "python.defaultInterpreterPath": "c:\\Python39\\python.exe"
+    "python.defaultInterpreterPath": "c:\\Python39\\python.exe",
+    "explorer.confirmDragAndDrop": false,
+    "notebook.cellFocusIndicator": "border",
+    "workbench.startupEditor": "none",
+    "notebook.output.textLineLimit": 999999,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ]
 }
